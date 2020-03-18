@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica,
+    "\30D2\30E9\30AE\30CE\89D2\30B4  Pro W3", Hiragino Kaku Gothic Pro,
+    "\30E1\30A4\30EA\30AA", Meiryo, "\FF2D\FF33  \FF30\30B4\30B7\30C3\30AF",
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: $fw-2;
+  color: $color-111;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+a {
+  color: $color-111;
+  text-decoration: none;
+  &:hover,
+  &:active {
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+    border: none;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background: none;
+  border: none;
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+iframe {
+  border: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
